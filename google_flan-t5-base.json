@@ -1,0 +1,330 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:8ede5a09-f83c-40c2-bfd1-3cb0614b755e",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-12-17T16:09:50.503205+00:00",
+    "component": {
+      "type": "machine-learning-model",
+      "bom-ref": "google/flan-t5-base-933b8b6a-965b-5f0e-966e-93e65798bdb8",
+      "name": "google/flan-t5-base",
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/google/flan-t5-base",
+          "type": "documentation"
+        }
+      ],
+      "modelCard": {
+        "modelParameters": {
+          "datasets": [
+            "svakulenk0/qrecc",
+            "taskmaster2",
+            "djaym7/wiki_dialog",
+            "deepmind/code_contests",
+            "lambada",
+            "gsm8k",
+            "aqua_rat",
+            "esnli",
+            "quasc",
+            "qed"
+          ]
+        }
+      },
+      "authors": [
+        {
+          "name": "google"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "APACHE-2.0",
+            "url": "https://spdx.org/licenses/Apache-2.0.html"
+          }
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "data",
+      "bom-ref": "dataset::svakulenk0/qrecc-7f384144-b9b6-5549-9258-3778344bb93f",
+      "name": "svakulenk0/qrecc",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        },
+        {
+          "name": "license_spdx_id",
+          "value": "CC-BY-3.0"
+        },
+        {
+          "name": "license_spdx_url",
+          "value": "https://spdx.org/licenses/CC-BY-3.0.html"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/svakulenk0/qrecc",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::taskmaster2-8bb8ce1d-15b7-5c88-8ef7-2496ba7e49f1",
+      "name": "taskmaster2",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        },
+        {
+          "name": "license_spdx_id",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "name": "license_spdx_url",
+          "value": "https://spdx.org/licenses/CC-BY-4.0.html"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/taskmaster2",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::djaym7/wiki_dialog-cc0f0109-0c9d-597a-9ff0-93006b0739e7",
+      "name": "djaym7/wiki_dialog",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/djaym7/wiki_dialog",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::deepmind/code_contests-e4e30f2b-e217-50f9-841f-df1d84c86007",
+      "name": "deepmind/code_contests",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        },
+        {
+          "name": "license_spdx_id",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "name": "license_spdx_url",
+          "value": "https://spdx.org/licenses/CC-BY-4.0.html"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/deepmind/code_contests",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::lambada-a4ad9cf2-77a9-5323-b9fb-29439060ac3f",
+      "name": "lambada",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        },
+        {
+          "name": "license_spdx_id",
+          "value": "CC-BY-4.0"
+        },
+        {
+          "name": "license_spdx_url",
+          "value": "https://spdx.org/licenses/CC-BY-4.0.html"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/lambada",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::gsm8k-349bf2fb-9df8-5d58-b516-11455563ccc2",
+      "name": "gsm8k",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        },
+        {
+          "name": "license_spdx_id",
+          "value": "MIT"
+        },
+        {
+          "name": "license_spdx_url",
+          "value": "https://spdx.org/licenses/MIT.html"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/gsm8k",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::aqua_rat-5a803fe5-baae-5836-ba0b-e0d1c0056839",
+      "name": "aqua_rat",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        },
+        {
+          "name": "license_spdx_id",
+          "value": "APACHE-2.0"
+        },
+        {
+          "name": "license_spdx_url",
+          "value": "https://spdx.org/licenses/Apache-2.0.html"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/aqua_rat",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::esnli-65d06571-9c7d-5e96-851d-086e97bd8f0e",
+      "name": "esnli",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/esnli",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::quasc-2d55c8ce-c875-5a8c-96a1-9393cc097cc1",
+      "name": "quasc",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/quasc",
+          "type": "documentation"
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "dataset::qed-8b094e23-9efb-5472-9fab-94ff8f5343fd",
+      "name": "qed",
+      "properties": [
+        {
+          "name": "usage",
+          "value": "training"
+        },
+        {
+          "name": "dataset_type",
+          "value": "hf"
+        },
+        {
+          "name": "license",
+          "value": "unknown"
+        }
+      ],
+      "externalReferences": [
+        {
+          "url": "https://huggingface.co/datasets/qed",
+          "type": "documentation"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "google/flan-t5-base-933b8b6a-965b-5f0e-966e-93e65798bdb8",
+      "dependsOn": [
+        "dataset::svakulenk0/qrecc-7f384144-b9b6-5549-9258-3778344bb93f",
+        "dataset::taskmaster2-8bb8ce1d-15b7-5c88-8ef7-2496ba7e49f1",
+        "dataset::djaym7/wiki_dialog-cc0f0109-0c9d-597a-9ff0-93006b0739e7",
+        "dataset::deepmind/code_contests-e4e30f2b-e217-50f9-841f-df1d84c86007",
+        "dataset::lambada-a4ad9cf2-77a9-5323-b9fb-29439060ac3f",
+        "dataset::gsm8k-349bf2fb-9df8-5d58-b516-11455563ccc2",
+        "dataset::aqua_rat-5a803fe5-baae-5836-ba0b-e0d1c0056839",
+        "dataset::esnli-65d06571-9c7d-5e96-851d-086e97bd8f0e",
+        "dataset::quasc-2d55c8ce-c875-5a8c-96a1-9393cc097cc1",
+        "dataset::qed-8b094e23-9efb-5472-9fab-94ff8f5343fd"
+      ]
+    }
+  ]
+}
