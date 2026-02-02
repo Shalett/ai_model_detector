@@ -47,10 +47,12 @@ their inferred source.
 
 git clone https://github.com/Shalett/ai_model_detector.git
 cd ai_model_detector
+
 2. Place a ZIP file of the AI project in the directory
 Example:
 
 sentence_transformers.zip
+
 3. Run the detector
 python universal_model_detector.py sentence_transformers.zip
 📄 Example Output
