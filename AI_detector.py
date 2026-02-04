@@ -10,10 +10,12 @@ MODEL_EXTS = (".pt", ".pth", ".bin", ".ckpt", ".onnx", ".safetensors")
 HF_BASE = "https://huggingface.co/"
 
 PATTERNS = {
+
     "huggingface": [
         r'from_pretrained\(["\']([^"\']+)["\']\)',
         r'snapshot_download\([^)]*repo_id\s*=\s*["\']([^"\']+)["\']',
-        r'DiffusionPipeline\.from_pretrained\(["\']([^"\']+)["\']'
+        r'DiffusionPipeline\.from_pretrained\(["\']([^"\']+)["\']',
+        r'model_name\s*=\s*["\']([^"\']+)["\']'   # ✅ ADD THIS
     ],
     "torch_hub": [
         r'torch\.hub\.load\(["\']([^"\']+)["\'],\s*["\']([^"\']+)["\']'
